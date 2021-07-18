@@ -24,10 +24,18 @@
  }
  form input, form button{
      padding: 0.5rem;
+     font-size: 2rem;
      background-color: white;
      border: none;
+     outline: none;
  }
  form button{
      color:rgb(237, 114, 9);
      background: white;
+     cursor: pointer;
+     transition: all 0.3s ease-in;
+ } 
+ form button:hover{
+     background-color:rgb(237, 114, 9);
+     color:white;
  }
